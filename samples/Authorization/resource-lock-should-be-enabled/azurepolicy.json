@@ -2,7 +2,8 @@
     "type": "Microsoft.Authorization/policyDefinitions",
     "name": "d1ad6c00-a48d-4039-87a9-8662253c303f",
     "properties": {
-        "displayName": "[MVP] Resource Lock should be enabled",
+        "displayName": "Resource Lock should be enabled",
+        "description": "With this policy: any resource that has the tag key LockLevel with the value CanNotDelete means authorized users can read and modify the resource, but they can t delete it.",
         "policyType": "Custom",
         "mode": "Indexed",
         "metadata": {
